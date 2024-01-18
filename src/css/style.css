@@ -1,0 +1,30 @@
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 25px 75px;
+    gap: 20px;
+    user-select: none;
+    list-style: none;
+}
+
+.gallery {
+    margin: 25px 75px;
+}
+
+.gallery-item {
+    cursor: pointer;
+
+}
+
+
+.gallery-item .gallery-image {
+    width: 320px;
+    height: 200px;
+    transition: 1s;
+}
+
+.gallery-item .gallery-image:hover {
+    transform: scale(1.1);
+}
